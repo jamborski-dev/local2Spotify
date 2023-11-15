@@ -15,6 +15,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     <html lang="en">
       <body className={font.className}>
         <AuthProvider>{children}</AuthProvider>
+        <p>Hello world!</p>
       </body>
     </html>
   )
